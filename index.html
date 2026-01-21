@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="icon" href="images/portfolio.png">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <div class="container" id="main">
+        <video class="back-vid" autoplay loop muted plays-inline src="videos/galaxy.mp4"></video>
+
+
+
+        <header data-aos="fade-down" data-aos-duration="2000" style="position: sticky;width: 96%;">
+            <div class="left">
+                <a href="#main"><h2><span style="color: #72a1dea2;">My </span>Portfolio</h2></a>
+            </div>
+
+            <ul>
+                <li><a href="#content">About</a></li>
+                <li><a href="#content">Education</a></li>
+                <li><a href="#content">Hobbies</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+
+            <div class="box-icons">
+                <p><i class='bx bxl-instagram' onclick="window.open('https://www.instagram.com/tejasvi_donepudi/', '_blank')"></i></p>
+                <p><i class='bx bxl-github' onclick="window.open('https://github.com/saradadonepudi', '_blank')"></i></p>
+                <p><i class='bx bxl-linkedin-square'></i></p>
+            </div>
+            <div class="menu-icon">
+                <i class='bx bx-menu'></i>
+            </div>            
+        </header>
+        <div class="sidebar">
+            <div class="close-icon">
+                <i class='bx bx-x'></i>
+            </div>
+            
+            <ul>
+                <li><a href="#content">About</a></li>
+                <li><a href="#content">Education</a></li>
+                <li><a href="#content">Hobbies</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+
+            <div class="social-sidebar">
+                <a><i class='bx bxl-instagram' onclick="window.open('https://www.instagram.com/tejasvi_donepudi/', '_blank')"></i></a>
+                <a><i class='bx bxl-github' onclick="window.open('https://github.com/saradadonepudi', '_blank')"></i></a>
+                <a><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+        </div>
+
+        <div class="blackhole-box" data-aos="fade-down" data-aos-duration="2000">
+            <video autoplay loop muted plays-inline src="videos/blackhole.mp4"></video>
+        </div>
+
+        <section class="hero ">
+            <div class="hero-info autoBlur" data-aos="fade-right" data-aos-duration="1000">
+                <div class="hero-info-title" >
+                    <i class='bx bxl-sketch'></i>
+                    Front-end Developer Portfolio
+                </div>
+
+                <h1 data-aos="fade-right" data-aos-duration="3000">Hello <span class="gradient">I'm </span><br><span class="gradient">Donepudi Tejasvi Venkata Sarada</span></h1>
+
+                <p>I design and build responsive, user-friendly websites with modern web technologies.</p>
+
+                <button><i class='bx bx-send' ></i> Download Resume</button>
+            </div>
+            
+            <div class="skills-video-box" data-aos="fade-left" data-aos-duration="3000">
+                <img src="images/pic.jpg" style="width: 400px;height: 400px;border-radius: 50%;object-fit: cover;">
+            </div>
+        </section>
+
+        <seaction class="info-section" id="content">
+            <div style="height: 100px;"></div>
+            <h1 class="section-title autoDisplay">Hello,There👋</h1>
+            <div class="info-cards">
+                <div class="card" data-aos="fade-right" data-aos-duration="2000">
+                    <h1>About me 👧</h1>
+                    <p>I am a second-year BCA student passionate about problem-solving, programming, and developing real-world applications.</p>
+                </div>
+
+                <div class="card" data-aos="fade-down" data-aos-duration="2000">
+                    <h1>Education 📖</h1>
+                    <p>
+                        Bachelor of Computer Applications (BCA)<br>
+                        Vignan University<br>
+                        2024 – 2027 (Expected)<br>
+                        Currently in 2nd Year
+                    </p>
+                </div>
+
+                <div class="card" data-aos="fade-left" data-aos-duration="2000">
+                    <h1>Hobbies 🎯</h1>
+                    <p>
+                        Dancer<br>
+                        Artist<br>
+                        Organizer
+                    </p>
+                </div>
+            </div>
+        </seaction>
+
+        <section class="my-project" id="projects">
+            <div style="height: 100px;"></div>
+            <h1 class="section-title autoDisplay">My Projects 👨‍💻</h1>
+            <div class="project-card">
+                <div class="project-vidbox autoBlur" >
+                    <video loop id="projectVideo1" src="videos/pro1.mp4"></video>
+                    <div class="hover-sign"></div>
+                </div>
+                <div class="project-info fadein-left">
+                    <h1>Personal <span class="gradient">Portfolio</span> Website</h1>
+                    <p>This project is a personal portfolio website designed and developed to showcase my skills, projects, and professional profile in a visually engaging and structured manner. The website features a modern layout with smooth animations, video backgrounds, and interactive sections to enhance user experience.</p>
+                    <button onclick="window.open('https://saradadonepudi.github.io/gita-by-mood/', '_blank')" ><i class='bx bx-link-external' ></i> Website</button>
+            </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-vidbox autoBlur">
+                    <video loop id="projectVideo2" src="videos/pro2.mp4"></video>
+                </div>
+                <div class="project-info fadein-left">
+                    <h1><span class="gradient">Join Madhava</span> — A Cinematic Web Experience</h1>
+                    <p>
+                        An immersive, fullscreen web experience that blends spirituality, sound, and cinema. 
+                        Built with custom JavaScript interactions, keyboard controls, and seamless video transitions 
+                        to guide users through a calm, narrative-driven introduction.
+                    </p>
+                    <button onclick="window.open('https://saradadonepudi.github.io/gita-by-mood/', '_blank')"><i class='bx bx-link-external' ></i> Website</button>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-vidbox autoBlur">
+                    <video loop id="projectVideo3" src="videos/pro3.mp4"></video>
+                </div>
+                
+                <div class="project-info fadein-left">
+                    <h1>Interactive<span class="gradient"> Playlist Web App</span></h1>
+                    <p>
+                        A custom-built music playlist web app featuring dynamic song search, 
+                        keyboard controls, synced background videos, and real-time audio progress tracking. 
+                        Designed to feel immersive, responsive, and interactive rather than static.
+                    </p>
+                    <button onclick="window.open('https://saradadonepudi.github.io/myplaylist/', '_blank')"><i class='bx bx-link-external' ></i> Website</button>
+                </div>
+            </div>
+        </section>
+        
+        <section class="skills-section" id="skills">
+            <h1 class="section-title autoDisplay">
+                My Skills 💪
+            </h1>
+            <div class="skills-box autoDisplay">
+                <img class="skills-image" src="images/digital brain (2).png" alt="">
+                <div class="Designer">
+                    <h1><span class="gradient">Designer</span>&nbsp;🎨</h1>
+                    <p>I create clean, responsive, and user-friendly interfaces using HTML, CSS, Bootstrap, and JavaScript, focusing on simplicity and great user experience.</p>    
+                </div>
+                
+                <div class="coder">
+                    <h1><span class="gradient">Coder</span>&nbsp;💻</h1>
+                    <p>I’m a Full Stack Java Developer skilled in Java, JavaScript, and MySQL, building complete end-to-end web applications with reliable backend logic and efficient database integration.</p>
+                </div>
+
+                <div class="slider" reverse="true" style="
+                --width: 100px;
+                --height: 100px;
+                --quantity: 7;
+                ">
+                    <div class="list">
+                        <div class="item" style="--position: 1"><img src="images/10.png" alt=""></div>
+                        <div class="item" style="--position: 2"><img src="images/6.png" alt=""></div>
+                        <div class="item" style="--position: 3"><img src="images/12.png" alt=""></div>
+                        <div class="item" style="--position: 4"><img src="images/7.png" alt=""></div>
+                        <div class="item" style="--position: 5"><img src="images/java.png" alt=""></div>
+                        <div class="item" style="--position: 6"><img src="images/Python.png" alt=""></div>
+                        <div class="item" style="--position: 7"><img src="images/mysql.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section ">
+            <h1 class="section-title autoDisplay">Let's talk😊</h1>
+
+            <div class="social-box autoBlur">
+                <a href="tel:+918309524793"><i class='bx bxs-phone'></i>+91 8309524793</a>
+                <a href="mailto:tejasvidonepudi7@gmail.com"><i class='bx bxl-gmail' ></i>tejasvidonepudi7@gmail.com</a>
+            </div>
+
+            <div class="contact-box autoBlur">
+                <p>“I build with purpose, design with empathy, and code with confidence.”</p>
+            </div>
+        
+        </section> 
+        
+    </div>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script >
+      AOS.init();
+    </script>
+</body>
+</html>
